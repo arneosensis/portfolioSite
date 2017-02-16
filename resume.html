@@ -1,38 +1,549 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<p>
-    Work Experience
-    Feb/2015 — present: Software Developer, Telesoft — Seattle, WA
-    - Led the development and adoption of React for a dashboard web app.
-    - Full stack development using Node.js, Express, React, and MongoDB.
-    Nov/2013 — Jan/2015: Web Developer, Plasmid Inc. — Denver, CO
-    - Part of the front end development team of their AngularJS web app.
-    - Developed & maintained a reusable components repository.
-    Previous Experiences:
-    - Developed & co-founded an online game store, sold to AB Games in 2012.
-    - Summer intern for Bong working with D3 visualizations, 12 weeks in 2011.
-</p>
 
-<p>
-    Projects
-    Spice: change how a web page looks using voice commands
-    - User says things like "make background purple" and site styles change
-    - Chrome extension developed using vanillaJS and Wit.ai
-    RoboPizza: a slack bot for ordering pizza
-    - Slack bot developed using Go and Wit.ai
-    Other Projects:
-    - Speakasso: web-based generative art based on speech or conversation.
-    - Bubbles.js: open source generator of PNG images of bubbles
-</p>
-<p>Technical Skills
-    - React, Redux, ES6, Express, MongoDB, Sass, Webpack, Gulp, Git</p>
+<html lang="en">
+
+<!--Head -->
+<head>
+
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aleksandr Omelchenko resume" />
+    <meta name="keywords" content="portfolio, resume, front-end" />
+    <!-- End Essential Meta Tags -->
+
+
+    <!--Title -->
+    <title>Aleksandr Omelchenko</title>
+    <!--End Title -->
+
+
+    <!--Meta Datas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!--End Meta Datas -->
+
+
+
+    <!-- Icons -->
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- END Icon -->
+
+
+
+
+    <!-- CSS Files -->
+
+    <!-- Font Awesome Icons -->
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="css/lightbox.css" />
+
+    <!-- Text Rotator -->
+    <link rel="stylesheet" href="css/simpletextrotator.css" />
+
+    <!-- ionicons Icons -->
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+
+    <!-- Sticky Navigation -->
+    <link rel="stylesheet" href="css/sticky.min.css" />
+
+    <!-- Default Style -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- Uikit -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+
+    <!-- Bootstrap Framework -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <!-- End CSS Files -->
+
+
+
+
+    <!-- Modernizr Plugin -->
+    <script src="js/modernizr-custom.js"></script>
+    <!-- END Modernizr Plugin -->
+
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<!--End Head -->
+
+
+
+
+
+
+
+<!--Body Starts -->
+<body>
+
+
+
+
+
+<!-- Loading Screen -->
+<div id="loader-wrapper">
+
+    <!-- Loading Image -->
+    <div class="loader-img"><img src="img/loader.gif" alt="" /></div>
+    <!-- END Loading Image -->
+
+
+    <!-- Loading Screen Split -->
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <!-- End Loading Screen Split -->
+
+</div>
+<!-- End Loading Screen -->
+
+
+
+
+
+
+
+<!-- Main Container -->
+<div class="container">
+
+
+
+    <!-- All Sections -->
+    <div class="sections">
+
+
+
+
+        <!-- Sticky Navigation -->
+        <div data-uk-sticky>
+
+            <!-- Navigation Starts -->
+            <div class="navigation">
+
+
+
+                <!-- Navigation Heading -->
+                <div class="navbar-header">
+
+                    <!-- Mobile Navigation Button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- End Mobile Navigation Button -->
+
+                    <!-- Navigation Logo -->
+
+                    <!-- End Navigation Logo -->
+
+                </div>
+                <!-- End Navigation Heading -->
+
+
+
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                    <!-- Navigation List -->
+                    <ul class="nav navbar-nav f-small normal raleway">
+
+
+                        <li><a href="/">Home</a></li>
+                        <li><a href="./resume.html">Resume</a></li>
+
+                    </ul>
+                    <!-- End Dropdown Link List -->
+
+                    </li>
+                    <!-- End Dropdown -->
+
+
+
+
+
+
+                    </ul>
+                    <!-- End Navigation List -->
+
+                </div>
+                <!-- End Navigation Links -->
+
+
+            </div>
+            <!-- Navigation Ends -->
+
+        </div>
+        <!-- End Sticky Navigation -->
+
+
+
+
+
+
+
+        <!-- Header -->
+        <div id="header">
+
+            <!-- Section Content -->
+            <div class="section-content">
+
+
+
+                <!-- Heading -->
+                <div class="big-text" data-uk-scrollspy="{cls:'uk-animation-fade', delay:20}">
+
+                    <!-- Title -->
+                    <h2 class="t-left f-large ultrabold uppercase">Resume</h2>
+
+
+                    <!-- Description -->
+                    <h3 class="t-left f-medium normal uppercase">Front-end<span class="bold">developer </span>from <span class="bold">Kiev.</span></h3>
+
+                </div>
+                <!-- End Heading -->
+
+            </div>
+            <!-- End Section Content -->
+
+        </div>
+        <!-- End Header -->
+
+        <div id="services">
+            <div class="section-content">
+                <div class="row">
+
+
+
+                    <!-- Column -->
+                    <div class="col-md-12">
+
+                        <!-- Brief -->
+                        <div class="brief">
+
+                            <!-- Heading -->
+                            <h3 class="t-left f-normal ultrabold uppercase">WORK EXPERIENCE</h3>
+
+                            <!-- Separator -->
+                            <div class="separator-small"></div>
+                            <!-- End Separator -->
+
+                            <!-- Paragraph -->
+                            <p class="t-left"><span class="bold">Front-end developer, Kitsof</span> - Apr/2016 - Feb/2016 - Kyiv</p>
+                            <ul  class="t-left">
+                                <li>⇢ Developing and maintaining the front end functionality of websites.</li>
+                                <li> ⇢ Full stack development using Node.js, Express, REST API, Angular and
+                                    JavaScript.</li>
+                                <li>⇢ Optimizing web assets for optimal speed and performance.</li>
+                                <li>⇢ Researching new technologies and software packages.</li>
+                                <li> ⇢ Changing the code, software or graphics of existing websites.</li>
+                                <li>⇢ Simultaneously managing several databases and reporting tools.</li>
+                                <li>⇢ Provide guidance to other team members on web development issues.</li>
+                            </ul>
+
+                            <!-- Paragraph -->
+                            <p class="t-left"><span class="bold">Front-end developer, Off-site Services</span> - apr/2015 - apr/2016 - Kyiv</p>
+                            <ul  class="t-left">
+                                <li>⇢ Developed & maintained a websites and web app with a team.</li>
+                                <li>⇢ Optimizing web assets for optimal speed and performance.</li>
+                                <li>⇢ Writing cross-browser compliant HTML, CSS & JavaScript.</li>
+                                <li>⇢ Testing a website before it goes live top identify any problems.</li>
+                                <li> ⇢ Changing the code, software or graphics of existing websites.</li>
+                            </ul>
+
+                            <!-- Paragraph -->
+                            <p class="t-left"><span class="bold">Front-end developer, Freelance</span> - sep/2014 - apr/2015 - Kyiv</p>
+                            <ul  class="t-left">
+                                <li>⇢ Developed & maintained a websites.</li>
+                            </ul>
+
+                            <!-- Heading -->
+                            <h3 class="t-left f-normal ultrabold uppercase">EDUCATION</h3>
+
+                            <!-- Separator -->
+                            <div class="separator-small"></div>
+                            <!-- End Separator -->
+
+                            <p class="t-left"><span class="bold">Kyiv National University of Technologies and Design</span> - 2007 - 2010 - Kyiv</p>
+                            <ul  class="t-left">
+                                <li>⇢ Master's degree, Economic Cybernetics</li>
+                            </ul>
+
+                            <p class="t-left"><span class="bold">Kiev College of electronic devices</span> - 2004 - 2007 - Kyiv</p>
+                            <ul  class="t-left">
+                                <li>⇢ Specialist, Programming for computer technology and automated systems</li>
+                            </ul>
+
+                            <!-- Heading -->
+                            <h3 class="t-left f-normal ultrabold uppercase">TECHNICAL SKILLS</h3>
+                            <!-- Separator -->
+                            <div class="separator-small"></div>
+                            <!-- End Separator -->
+                            <p class="t-left">
+                            <ul class="t-left">
+                                <li>JavaScript</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>jQuery</li>
+                                <li>Sass</li>
+                                <li>Git</li>
+                                <li>Gulp</li>
+                                <li>Node.js</li>
+                                <li>Bower</li>
+                                <li>Angular</li>
+                            </ul>
+                            </p>
+
+
+
+
+
+                            <!-- Read More Link -->
+
+                            <!--<div class="service">-->
+
+                                <!--<i class="icon ion-ios-world-outline float-l"></i>-->
+                                <!--<h2 class="ultrabold uppercase float-l">-->
+                                    <!--<a href="./decl.pdf" download="" class="float-l f-small">resume</a>-->
+                                <!--</h2>-->
+                            <!--</div>-->
+
+                            <!--<div class="service col-md-12 col-xs-12 uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade">-->
+
+                                <!-- Service -->
+
+                                <!-- Icon -->
+                                <!--<i class="icon ion-ios-world-outline float-l"></i>-->
+
+                                <!-- Title -->
+                                <h2 class="ultrabold uppercase">
+                                    <a href="./decl.pdf" download="" class="float-l f-small">Download english resume</a>
+                                </h2><br>
+
+                                <!-- Separator -->
+                                <!--<div class="separator-small float-l"></div>-->
+
+                            <!--</div>-->
+
+                            <!--<div class="service col-md-12 col-xs-12 uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade">-->
+
+                                <!-- Service -->
+
+                                <!-- Icon -->
+                                <!--<i class="icon ion-ios-world-outline float-l"></i>-->
+
+                                <!-- Title -->
+                                <h2 class="ultrabold uppercase">
+                                    <a href="./decl.pdf" download="" class="float-l f-small">Download russian resume</a>
+                                </h2><br>
+
+                                <!-- Separator -->
+                                <!--<div class="separator-small float-l"></div>-->
+
+                            <!--</div>-->
+
+
+
+                        </div>
+                        <!-- End Brief -->
+
+                    </div>
+                    <!-- End Column -->
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <div id="footer">
+
+            <!-- Section Content -->
+            <div class="section-content">
+
+
+
+
+
+
+
+                <!-- Row -->
+                <div class="row" data-uk-scrollspy="{cls:'uk-animation-fade', delay:20}">
+
+
+
+                    <!-- Column -->
+                    <div class="col-md-12 t-left">
+
+                        <!-- Footer Social -->
+                        <ul class="footer-social">
+
+                            <!-- Links -->
+                            <li class="no-margin"><a href="#"><i class="fa fa-facebook dark" aria-hidden="true"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin dark" aria-hidden="true"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-github dark" aria-hidden="true"></i></a></li>
+
+                            <!--<li><a href="#"><i class="fa heroku dark" aria-hidden="true"></i></a></li>-->
+
+                            <!-- End Links -->
+
+                        </ul>
+                        <!-- End Footer Social -->
+
+                        <!-- Separator -->
+                        <div class="separator-small"></div>
+                        <!-- End Separator -->
+
+                    </div>
+                    <!-- End Column -->
+
+
+
+                    <!-- Column -->
+                    <div class="col-md-12" data-uk-scrollspy="{cls:'uk-animation-fade', delay:40}">
+
+                        <!-- Footer Details -->
+                        <div class="footer-details t-left">
+
+                            <!-- Phone -->
+                            <p class="dark f-small lato">Phone: <a href="tel:+38 093 680 53 33">+38 093 680 53 33</a></p>
+
+                            <!-- Email -->
+                            <p class="dark f-small lato">Email: <a href="mailto:aleksandromelchenko@gmail.com">aleksandromelchenko@gmail.com</a></p>
+
+                            <!-- Address -->
+                            <p class="dark f-small lato">Address: <a href="https://goo.gl/Yld5EI" target="_blank">Ukraine, Kyiv</a></p>
+
+                        </div>
+                        <!-- End Footer Details -->
+
+                    </div>
+                    <!-- End Column -->
+
+
+                </div>
+                <!-- End Row -->
+
+            </div>
+            <!-- End Section Content -->
+
+        </div>
+        <!-- End Footer -->
+
+
+
+
+
+
+    </div>
+    <!-- End All Sections -->
+
+
+</div>
+<!-- End Main Container -->
+
+
+
+
+
+
+
+
+<!-- JavaSript Files -->
+
+<!-- Essential JS Files -->
+<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- uikit -->
+<script type="text/javascript" src="js/uikit.min.js"></script>
+
+<!-- Custom Codes -->
+<script type="text/javascript" src="js/custom.min.js"></script>
+
+
+<!-- JS Plugins -->
+
+
+
+<!-- Mail Plugin -->
+<script type="text/javascript" src="js/subscribe.js"></script>
+
+<!-- Grid -->
+<script type="text/javascript" src="js/grid.min.js"></script>
+
+<!-- Responsive Slider -->
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+
+
+
+<!-- Lightbox -->
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+
+<!-- Map -->
+<script type="text/javascript" src="js/jquery.mapit.js"></script>
+
+<!-- Text Rotator -->
+<script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+
+<!-- Contact -->
+<script type="text/javascript" src="js/contact.js"></script>
+
+<!-- Sticky Navigation -->
+<script type="text/javascript" src="js/sticky.min.js"></script>
+
+
+
+<!-- End JavaSript Files -->
+
+
+
+
+<script>
+
+</script>
+
+
+
+
 </body>
-<p>Technical Skills
-    Strong: React, ES6, Express, Sass, Gulp, Git
-    Knowledgeable: Redux, MongoDB, Webpack, LESS, Angular</p>
+<!-- End Body -->
+
 </html>
