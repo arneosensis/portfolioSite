@@ -10,7 +10,7 @@
         return this; //set idle function
     }
 
-    $('.error').hide(); //Hide error messages 
+    $('.error').hide(); //Hide error messages
     $('#MainResult').hide(); //we will hide this right now
     $('#ErrResults').hide(); //we will hide this right now
     $('#contact-wrapper').show(); //show main form
@@ -61,16 +61,16 @@
             data: myData,
             success: function (response) {
                 $("#MainResult").html('<fieldset class="response">' + response + '</fieldset>');
-                $("#MainResult").slideDown("slow"); //show Result 
+                $("#MainResult").slideDown("slow"); //show Result
                 $("#MainContent").hide(); //hide form div slowly
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 $("#ErrResults").html(thrownError);
             }
         });
-			
 
-	
+
+
 
     });
 
